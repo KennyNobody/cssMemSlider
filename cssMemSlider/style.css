@@ -279,6 +279,7 @@
         order: -2; }
       .slider__descriptions {
         order: 0;
+        width: 100%;
         max-width: 100%; }
       .slider__text {
         text-align: center; }
