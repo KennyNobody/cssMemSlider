@@ -5,63 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='./style.css' media='all' />
-    <title>Meme Slider</title>
+    <title>CSS Mem Slider</title>
 </head>
-<body>
-    <div class="slider">
-		<input type="radio" id="input-1" name="radio" class="slider__radio" checked>
-		<label class="slider__icon" for="input-1">
-			<div class="slider__marker"></div>
-		</label>
-		<input type="radio" id="input-2" name="radio" class="slider__radio">
-		<label class="slider__icon" for="input-2">
-			<div class="slider__marker"></div>
-		</label>
-		<input type="radio" id="input-3" name="radio" class="slider__radio">
-		<label class="slider__icon" for="input-3">
-			<div class="slider__marker"></div>
-		</label>
-		<input type="radio" id="input-4" name="radio" class="slider__radio">
-		<label class="slider__icon" for="input-4">
-			<div class="slider__marker"></div>
-		</label>
-		<input type="radio" id="input-5" name="radio" class="slider__radio">
-		<label class="slider__icon" for="input-5">
-			<div class="slider__marker"></div>
-		</label>
-		<div class="slider__wrapper">
-			<div class="slider__slide" id="slide-1">
-				1
+<body class="body">
+	<div class="container">
+		<div class="text">
+			<h1>
+				CSS Mem Slider
+			</h1>
+		</div>
+		<div class="slider">
+			<input type="radio" id="input-1" name="radio" class="slider__radio" checked>
+			<label class="slider__icon" for="input-1"></label>
+			<input type="radio" id="input-2" name="radio" class="slider__radio">
+			<label class="slider__icon" for="input-2"></label>
+			<input type="radio" id="input-3" name="radio" class="slider__radio">
+			<label class="slider__icon" for="input-3"></label>
+			<input type="radio" id="input-4" name="radio" class="slider__radio">
+			<label class="slider__icon" for="input-4"></label>
+			<div class="slider__wrapper">
+				<div class="slider__slide" id="slide-1">
+					<div class="slide">
+						<img src="./assets/image-1.jpeg" alt="Мемчик">
+					</div>
+				</div>
+				<div class="slider__slide" id="slide-2">
+					<div class="slide">
+						<img src="./assets/image-2.jpg" alt="Мемчик">
+					</div>
+				</div>
+				<div class="slider__slide" id="slide-3">
+					<div class="slide">
+						<img src="./assets/image-3.jpg" alt="Мемчик">
+					</div>
+				</div>
+				<div class="slider__slide" id="slide-4">
+					<div class="slide">
+						<img src="./assets/image-4.jpg" alt="Мемчик">
+					</div>
+				</div>
 			</div>
-			<div class="slider__slide" id="slide-2">
-				2
-			</div>
-			<div class="slider__slide" id="slide-3">
-				3
-			</div>
-			<div class="slider__slide" id="slide-4">
-				4
-			</div>
-			<div class="slider__slide" id="slide-5">
-				5
+			<div class="slider__descriptions">
+				<div class="slider__text" id="text-1">
+					<div class="slider__message">
+						Жизненно
+					</div>
+				</div>
+				<div class="slider__text" id="text-2">
+					<div class="slider__message">
+						А какой твой любимый динозавр?
+					</div>
+				</div>
+				<div class="slider__text" id="text-3">
+					<div class="slider__message">
+						Страшное
+					</div>
+				</div>
+				<div class="slider__text" id="text-4">
+					<div class="slider__message">
+						Тоже жизненно
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="slider__descriptions">
-			<div class="slider__text" id="text-1">
-				Подпись 1
-			</div>
-			<div class="slider__text" id="text-2">
-				Подпись 2
-			</div>
-			<div class="slider__text" id="text-3">
-				Подпись 3
-			</div>
-			<div class="slider__text" id="text-4">
-				Подпись 4
-			</div>
-			<div class="slider__text" id="text-5">
-				Подпись 5
-			</div>
+		<div class="text">
+			<p>
+				Мобильная версия включается от 860px. Выполнил KennyNobody ( <a target="_blank" rel="nofollow"
+					href="https://t.me/Kenny_Nobody">Телеграм</a> ). Мемчики вертикальные, поэтому ограничил слайды по
+				высоте с добавлением полей, иначе неудобно смотреть. Заданию это не противоречит.
+			</p>
 		</div>
 	</div>
 </body>
