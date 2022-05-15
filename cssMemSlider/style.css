@@ -5,7 +5,8 @@
   
   html {
     font-family: "Roboto", sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    overflow: auto; }
   
   body.body {
     display: flex;
@@ -264,13 +265,12 @@
    0 0 6.375rem #92D300,
    0 0 9.438rem #92D300; } }
   
-  @media only screen and (max-width: 859px) {
+  @media only screen and (max-width: 860px) {
     .container {
       padding-top: 3rem;
       padding-bottom: 3rem; }
     .text {
-      margin-bottom: 2rem;
-      text-align: center; }
+      margin-bottom: 2rem;}
     .slider {
       gap: 2.5rem 0;
       justify-content: center;
@@ -281,8 +281,6 @@
         order: 0;
         width: 100%;
         max-width: 100%; }
-      .slider__text {
-        text-align: center; }
     .slide {
       height: auto;
       max-height: none; } }
